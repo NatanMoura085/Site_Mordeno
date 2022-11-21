@@ -1,0 +1,29 @@
+@import url("reset.css");
+
+.s-menu {
+    height: 10vh;
+    background-color: #262626;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.281);
+}
+
+.s-menu ul{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+
+.s-menu ul li {
+    margin-top: 1rem;
+    transition: color 0.5s ease-in-out;
+    text-transform: uppercase;
+}
+
+.s-menu ul li a {
+    transition: color 0.5s ease-in-out;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.089);
+}
+
+.s-menu ul li a:hover {
+    color: tomato;
+}
