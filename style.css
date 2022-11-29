@@ -27,3 +27,24 @@
 .s-menu ul li a:hover {
     color: tomato;
 }
+
+.s-footer {
+    background-color: #262626;
+    color: #fff;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    padding: 2rem;
+}
+
+.s-footer__itens {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    margin-top: 10px;
+}
+
+.s-footer__itens img {
+    width: 20px;
+}
